@@ -21,7 +21,7 @@ https://www.yf5160.com
 - CSS(SASS/FLOCSS設計)
 
 
-##　開発環境
+## 開発環境
 Docker 
   - amazonLinux2023(+apache+php-fpm +node.js)
   - mysql 
