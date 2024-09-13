@@ -6,12 +6,12 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-|  Web Routes（画面遷移のための設定ファイル）
+|  jsonデータを要求する以外のroute定義
 |--------------------------------------------------------------------------
 */
 
 
-//写真一覧表示のために写真をダンロードする
+//写真をダウンロードする
 Route::get('photos/{photo}/download', [PhotoController::class, 'download'])->name('photo.download');
 
 
